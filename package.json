@@ -1,0 +1,23 @@
+{
+  "name": "code-file",
+  "version": "1.0.0",
+  "description": "",
+  "main": "3 code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krjmrok/intro-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krjmrok/intro-web/issues"
+  },
+  "homepage": "https://github.com/krjmrok/intro-web#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
