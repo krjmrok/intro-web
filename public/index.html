@@ -1,12 +1,47 @@
-<!DOCTYPE html >
+<!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <title>Intro-WebApp</title>
+    <head>
+        <meta charset="UTF-8">
+        <title>Intro-web</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Noto+Sans+JP:wght@400&display=swap" rel="stylesheet">
+        <script src="js/index.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <div class="header-left">
+                <a href="index.html" class="Home btn">
+                    <img src="images\home_65dp_434343_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                </a>
+            </div>
+            <nav class="header-center">
+                <ul class="header-menu">
+                    <li><a href="Introduce">Introduce</a></li>
+                    <li><a href="App">App</a></li>
+                    <li><a href="SomeThings">SomeThings</a></li>
+                </ul>
+            </nav>
+            <div class="header-right">
+                <a href="#" class="login btn">Login</a>
+            </div>
+        </header>
+        <main>
+            <section id="Introduce" class="top-wrapper">
+                <div class="container">
+                    <h1 class="neon-text">Well Come</h1>
+                    <a href=""></a>
+                    <a href=""></a>
+                </div>
+            </section>
+            <section id="#App" class="App-wrapper">
+                <div class="colorApp">
+                    <p id="colorText">ColorCode：
+                        <span id="searchText">Search</span>
+                    </p>
+                    <input class="PickBox" id="colorPicker" type="color">
+                </div>
+            </section>
+        </main>
+        <footer></footer>
+    </body>
 </html>
-<body>
-    <header>Header</header>
-    <div>Intro-page</div>
-    <div>Apppage</div>
-    <footer>Footer</footer>
-</body>
